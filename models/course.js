@@ -6,7 +6,7 @@ const courseSchema=new Schema({
     price:Number,
     imageUrl:String,
     creatorId:{
-        types:Schema.types.ObjectId,
+        type:Schema.Types.ObjectId,
         ref:"User",
     }
 })
