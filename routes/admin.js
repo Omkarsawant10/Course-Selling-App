@@ -1,6 +1,6 @@
 import express from "express";
 export const adminRouter=express.Router();
-
+import { Admin } from "../models/admin.js";
 
 
 adminRouter.post("/signup",(req,res)=>{
